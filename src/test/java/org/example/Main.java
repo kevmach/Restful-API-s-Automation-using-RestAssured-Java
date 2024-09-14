@@ -44,8 +44,7 @@ public class Main {
                 .statusCode(200)
                 .body("scope", equalTo("APP"))
 
-        //Extracting our body response as string
-        //.asString();
+
 
         System.out.println(response);
         JsonPath js = new JsonPath(response);
